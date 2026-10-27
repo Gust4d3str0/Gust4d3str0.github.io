@@ -10,8 +10,8 @@ export const profile = {
   email: 'henriquefemiano@outlook.com',
   github: 'https://github.com/Gust4d3str0',
   linkedin: 'https://www.linkedin.com/in/gustavo-femiano-594b28268/',
-  /** Coloque o PDF em public/curriculo-gustavo-femiano.pdf e mude para true. */
-  resumeAvailable: false,
+  /** PDF em public/curriculo-gustavo-femiano.pdf. */
+  resumeAvailable: true,
   resumeUrl: '/curriculo-gustavo-femiano.pdf',
   interests: [
     'Desenvolvimento Back-end',
@@ -34,7 +34,7 @@ export const profile = {
     {
       title: 'Engenharia da Computação',
       org: 'Universidade de Araraquara (UNIARA)',
-      note: 'Em fase final',
+      note: '2022 – previsão jan. 2027 (10º semestre)',
     },
     {
       title: 'Desenvolvimento Back-End Python, Nível 1: Estruturando Aplicações Web',

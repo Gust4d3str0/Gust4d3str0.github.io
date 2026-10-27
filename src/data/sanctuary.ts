@@ -20,7 +20,7 @@ export const sanctuaryClasses: SanctuaryClass[] = [
     short: 'Back-end',
     branch: 'backend',
     description:
-      'Lógica, dados e segurança por trás da interface. Fiz a formação Back-End Python na Alura, que me deu a base em Django, Flask e FastAPI. Na prática, apliquei autenticação, permissões e persistência com Supabase e PostgreSQL no Ascenção RPG, Node.js no Pre-Live e Python no HydroPulseAI.',
+      'Lógica, dados e segurança por trás da interface. Fiz a formação Back-End Python na Alura e uso Python com Django no HydroPulseAI e FastAPI no chatbot do TCC. Também apliquei autenticação, permissões e persistência com Supabase e PostgreSQL no Ascenção RPG e Node.js no Pre-Live. Flask vem da formação.',
     focus: ['APIs e autenticação', 'Persistência de dados', 'Python aplicado a dados e ML'],
   },
   {
@@ -40,7 +40,7 @@ export const sanctuaryClasses: SanctuaryClass[] = [
     short: 'Inteligência Artificial',
     branch: 'ia',
     description:
-      'Aplicação de Inteligência Artificial em projetos, com base em estudos de fundamentos (conteúdo relacionado ao Azure AI-900). No TCC, trabalho com áudio e reconhecimento de emoções na fala, ainda em evolução; no HydroPulseAI, com Machine Learning para classificar defeitos em bombas hidráulicas a partir de pressão, vazão e temperatura.',
+      'Aplicação de Inteligência Artificial em projetos, com base em estudos de fundamentos (conteúdo relacionado ao Azure AI-900). No TCC, trabalho com áudio e reconhecimento de emoções na fala, ainda em evolução; no HydroPulseAI, com Scikit-learn para classificar defeitos em bombas hidráulicas a partir de pressão, vazão e temperatura.',
     focus: ['Processamento de áudio', 'Reconhecimento de emoções', 'Machine Learning aplicado'],
   },
   {

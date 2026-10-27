@@ -10,13 +10,13 @@ export const milestones: Milestone[] = [
   },
   {
     id: 'graduacao',
-    period: 'Graduação',
+    period: '2022 – jan. 2027 (previsão)',
     title: 'Engenharia da Computação na UNIARA',
-    description: 'Formação em fase final, com base em programação, sistemas e engenharia de software.',
+    description: 'Bacharelado em fase final (10º semestre), com base em programação, sistemas e engenharia de software.',
   },
   {
     id: 'alura',
-    period: 'Formação complementar',
+    period: 'Out. 2026',
     title: 'Back-End Python na Alura',
     description: 'Nível 1: Estruturando Aplicações Web — 15 cursos e checkpoints, 158 horas estimadas.',
   },

@@ -72,7 +72,7 @@ export const projects: Project[] = [
       'Trabalho de Conclusão de Curso de Engenharia da Computação: suporte emocional não clínico com análise de áudio e respostas contextualizadas por IA.',
     image: '/projects/chatbot-emocional.png',
     imageAlt: 'Tela inicial do chatbot com pergunta de acolhimento, sugestões de conversa e campo de mensagem',
-    tech: ['Inteligência Artificial', 'Processamento de áudio', 'Reconhecimento de emoções na fala'],
+    tech: ['Python', 'FastAPI', 'Inteligência Artificial', 'Processamento de áudio', 'Reconhecimento de emoções na fala'],
     problem:
       'Conversas automatizadas costumam ignorar o tom emocional de quem fala. O TCC investiga como considerar a emoção na fala para adaptar as respostas, sempre como apoio não clínico.',
     solution:
@@ -97,14 +97,14 @@ export const projects: Project[] = [
     category: 'academico',
     status: 'Projeto acadêmico',
     summary:
-      'Projeto acadêmico que usa pressão, vazão e temperatura para identificar e classificar defeitos em bombas hidráulicas por meio de Machine Learning.',
+      'Projeto acadêmico em Python, Django e Scikit-learn que identifica e classifica defeitos em bombas hidráulicas a partir de pressão, vazão e temperatura.',
     image: '/projects/hydropulse-ai.png',
     imageAlt: 'Página de detalhes de um componente no sistema de monitoramento hidráulico, com gráficos de pressão, vazão e temperatura',
-    tech: ['Machine Learning', 'Análise de dados'],
+    tech: ['Python', 'Django', 'Scikit-learn', 'Machine Learning'],
     problem:
       'Defeitos em bombas hidráulicas costumam ser percebidos só depois que o problema se agrava. O projeto investiga como pressão, vazão e temperatura podem apoiar a identificação antecipada de falhas.',
     solution:
-      'Um sistema que analisa leituras de pressão, vazão e temperatura e classifica o tipo de defeito da bomba com um modelo de Machine Learning, exibindo gráficos, avaliação do modelo e relatórios.',
+      'Um sistema web em Django que analisa leituras de pressão, vazão e temperatura e classifica o tipo de defeito da bomba com um modelo Scikit-learn, exibindo gráficos, avaliação do modelo e relatórios.',
     features: [
       'Login de usuários e painel administrativo',
       'Cadastro e consulta de componentes (bomba, válvula, tubulação)',

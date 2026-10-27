@@ -44,9 +44,9 @@ describe('App', () => {
     )
   })
 
-  it('currículo fica desabilitado enquanto não houver PDF', () => {
+  it('currículo aponta para o PDF publicado', () => {
     render(<App />)
-    expect(screen.getByRole('button', { name: /Currículo/ })).toHaveAttribute('aria-disabled', 'true')
+    expect(screen.getByRole('link', { name: /Currículo/ })).toHaveAttribute('href', '/curriculo-gustavo-femiano.pdf')
   })
 
   it('filtra projetos por categoria', async () => {
